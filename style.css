@@ -163,7 +163,13 @@ a img { border: none; }
 
 img { max-width: 100%; }
 
-iframe {
+iframe #app {
+	width: 600px;
+	border: 0;
+	overflow: hidden;
+}
+
+iframe #full {
 	width: 100%;
 	border: 0 !important;
 	overflow: hidden !important;
